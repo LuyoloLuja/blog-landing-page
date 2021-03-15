@@ -10,7 +10,7 @@ a {
     text-decoration: none;
 }
 .hide { display: none; }
-.container { width: 100%; box-sizing: border-box; }
+.container { width: 100%; box-sizing: border-box;  }
 header {
     background-image: url('../images/bg-pattern-intro.svg');
     background-position: center;
@@ -164,3 +164,38 @@ ul {
     top: -24%;
     left: 5%;
 }
+.blogr-details {
+    border: 1px solid red;
+    height: 45em;
+    font-family: Overpass, Arial, Helvetica, sans-serif;
+    color: hsl(237, 23%, 32%);
+    position: relative;
+    bottom: 10%;
+    margin-top: 5em;
+}
+.blogr-details .mobile-img { display: none; }
+.blogr-details .desktop-img {
+    position: absolute;
+    left: -25%;
+}
+.blogr-details article {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10%;
+}
+
+.blogr-details article div {
+    margin-top: 4em;
+}
+
+/* footer {
+    height: fit-content;
+    position: relative;
+    top: 20%;
+    border: 1px solid blue;
+}
+footer div {
+    position: absolute;
+} */
