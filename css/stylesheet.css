@@ -165,7 +165,6 @@ ul {
     left: 5%;
 }
 .blogr-details {
-    border: 1px solid red;
     height: 45em;
     font-family: Overpass, Arial, Helvetica, sans-serif;
     color: hsl(237, 23%, 32%);
@@ -190,12 +189,35 @@ ul {
     margin-top: 4em;
 }
 
-/* footer {
-    height: fit-content;
-    position: relative;
-    top: 20%;
-    border: 1px solid blue;
+footer {
+    font-family: Overpass, Arial, Helvetica, sans-serif;
+    background-color: hsl(240, 10%, 16%);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 6em 6em 6em 2em;
+    margin: 5em 0 0 0;
+    border-radius: 0 3% 0 0;
 }
-footer div {
-    position: absolute;
-} */
+footer div h4 { 
+    margin: 0 0 2em 0;
+ }
+footer div a {
+    display: block;
+    color: #fff;
+    font-weight: normal;
+    margin: 0 0 1em 0;
+}
+footer div a:hover, .attribution a:hover { text-decoration: underline; }
+.attribution {
+    text-align: center;
+    font-family: Overpass, Arial, Helvetica, sans-serif;
+    background-color: hsl(240, 10%, 16%);
+    color: #fff;
+    padding: 1em;
+    font-size: 14px;
+}
+.attribution a { 
+    color: hsl(356, 100%, 66%);
+    font-style: italic;
+}
