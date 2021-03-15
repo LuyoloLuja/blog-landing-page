@@ -64,8 +64,8 @@ ul {
     border: 1px solid #fff;
     text-decoration: none;
 }
-.second-nav {
-    display: none;
+.a, .b, .c {
+    /* display: none; */
     background-color: #fff;
     border-radius: 10px;
     margin: 1.5em 0;
@@ -75,8 +75,8 @@ ul {
     position: absolute;
     z-index: 5;
 }
-.second-nav li a { color: hsl(237, 17%, 21%); }
-.second-nav li a:hover {
+.a li a, .b li a, .c li a { color: hsl(237, 17%, 21%); }
+.a li a:hover, .b li a:hover, .c li a:hover {
     font-weight: bold;
     text-decoration: none;
 }
