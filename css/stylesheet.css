@@ -9,7 +9,7 @@ body {
 a {
     text-decoration: none;
 }
-.hide { display: none; }
+.hide, .harmburger { display: none; }
 .container { width: 100%; box-sizing: border-box;  }
 header {
     background-image: url('../images/bg-pattern-intro.svg');

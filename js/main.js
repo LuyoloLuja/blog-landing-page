@@ -1,9 +1,13 @@
 // DOM ELEMENTS
 const wrapper = document.querySelector(".first-nav");
-
 const navBarA = document.querySelector(".a");
 const navBarB = document.querySelector(".b");
 const navBarC = document.querySelector(".c");
+const harmburger = document.querySelector('.harmburger');
+
+harmburger.addEventListener('click', () => {
+  wrapper.style.display = 'block';
+})
 
 // FUNCTIONS
 function navFunctionality(event) {
@@ -13,7 +17,9 @@ function navFunctionality(event) {
   //     return;
   // }
   const targetButton = element.dataset.input;
+
   openNavBar(targetButton);
+
 }
 
 function openNavBar(input) {
@@ -33,11 +39,16 @@ function openNavBar(input) {
 }
 
 function closeNavBar() {
-    navBarA.classList.add('hide');
-    navBarC.classList.add('hide');
-    navBarB.classList.add('hide');
+
+  navBarA.classList.add('hide');
+  navBarC.classList.add('hide');
+  navBarB.classList.add('hide');
 }
+
+window.addEventListener('click', () => {
+  closeNavBar();
+})
 
 // EVENTS
 wrapper.addEventListener("mouseover", navFunctionality);
-wrapper.addEventListener('mouseout', closeNavBar)
+wrapper.addEventListener('mouseout', closeNavBar);

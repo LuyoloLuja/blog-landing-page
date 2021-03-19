@@ -20,6 +20,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./css/stylesheet.css">
+  <link rel="stylesheet" href="./css/mobile.css">
 
   <title>Frontend Mentor | [Blogr]</title>
 </head>
@@ -28,10 +29,15 @@
   <div class="container">
     <header>
       <nav>
+        <div class="images">
+          <img src="./images/logo.svg" alt="Blogr Logo">
+          <img class="harmburger" src="./images/icon-hamburger.svg" alt="Harmburger">
+        </div>
         <ul class="first-nav">
-          <li><img src="./images/logo.svg" alt="Blogr Logo"></li>
+          <li><img class="desktop-log" src="./images/logo.svg" alt="Blogr Logo"></li>
           <li>
-            <a data-input="0" class="expand-links" href="#">Product <img src="./images/icon-arrow-light.svg" alt="Navigation Arrow"></a>
+            <a data-input="0" class="expand-links" href="#">Product <img class="desktop-arrow" src="./images/icon-arrow-light.svg"
+                alt="Navigation Arrow"></a>
             <ul class="second-nav a hide">
               <li><a href="#">Overview</a></li>
               <li><a href="#">Pricing</a></li>
@@ -42,7 +48,8 @@
           </li>
 
           <li>
-            <a class="expand-links" href="#" data-input="1">Company <img src="./images/icon-arrow-light.svg" alt="Navigation Arrow"></a>
+            <a class="expand-links" href="#" data-input="1">Company <img class="desktop-arrow" src="./images/icon-arrow-light.svg"
+                alt="Navigation Arrow"></a>
             <ul class="second-nav b hide">
               <li><a href="#">About</a></li>
               <li><a href="#">Team</a></li>
@@ -52,7 +59,7 @@
           </li>
 
           <li>
-            <a class="expand-links" href="#" data-input="2">Connect <img src="./images/icon-arrow-light.svg"
+            <a class="expand-links" href="#" data-input="2">Connect <img class="desktop-arrow" src="./images/icon-arrow-light.svg"
                 alt="Navigation Arrow"></a>
             <ul class="second-nav c hide">
               <li><a href="#">Contact</a></li>

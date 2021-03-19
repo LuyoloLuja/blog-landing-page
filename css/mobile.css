@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 1em;
+        height: 100vh;
+        width: 100%;
+    }
+    .desktop-log, .desktop-arrow { display: none; }
+    .harmburger{ display: block;}
+    .first-nav {
+        display: none;
+        background-color: #fff;
+        padding: 2em;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .first-nav a {
+        color: hsl(237, 17%, 21%);
+        margin-right: 0;
+        text-align: center;
+    }
+    .first-nav li {
+        margin: 2em 0;
+    }
+    .images {
+        display: flex;
+        justify-content: space-between;
+    }
+    .images .harmburger { height: 20px; }
+}
